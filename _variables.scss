@@ -1,16 +1,82 @@
-$gap-horizontal: 10px;
-$gap-vertical: $gap-horizontal;
 
-@mixin grid {
-  @supports(grid-area:auto) {
-    display: grid;
-    grid-column: $gap-horizontal;
-    grid-row-gap: $gap-vertical;
+$grid-columns: 12;
+$content-padding: 10px;
+
+//grid gap
+:root {
+  --grid-gap: 10px;
+}
+
+//flex container definition
+.flex-grid {
+  display: flex;  
+  flex-wrap: wrap;
+  margin: calc(var(--grid-gap) * -1) 0 0 calc(var(--grid-gap) * -1);
+}
+
+/* Containers */
+
+.container {
+  padding: $content-padding;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-end {
+  padding: $content-padding;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-around {
+  padding: $content-padding;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-between {
+  padding: $content-padding;
+  display: flex;
+  justify-content: space-between;
+}
+
+//flex item definition
+.col {
+  box-sizing: border-box;
+  padding: calc(var(--grid-gap)) 0 0 calc(var(--grid-gap));
+  background-clip: content-box;
+  flex-basis: 100%;
+}
+
+//round flex items' width 
+@function round-width ($i) {
+  $width : floor(100 * $i * 100/ $grid-columns) / 100;
+  @return $width#{"%"};
+}
+
+//utility classes
+
+@for $i from 1 through $grid-columns {
+  .col--#{$i} {
+    flex-basis: round-width($i);
+    max-width: round-width($i); 
   }
 }
 
-@mixin gridAuto($min-width) {
-  @supports(grid-area: auto){
-    grid-template-columns: repeat(auto-fit, minmax($min-width,1fr));
+@media only screen and (min-width: 600px) {
+  @for $i from 1 through $grid-columns {
+    .col--md-#{$i} {
+      flex-basis: round-width($i);
+      max-width: round-width($i); 
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  @for $i from 1 through $grid-columns {
+    .col--lg-#{$i} {
+      flex-basis: round-width($i);
+      max-width: round-width($i); 
+    }
   }
 }
