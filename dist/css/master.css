@@ -1,1 +1,62 @@
-/* No CSS *//*# sourceMappingURL=master.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Tags */
+body {
+  display: -ms-grid;
+  display: grid;
+}
+
+/* Classes */
+.gallery-grid {
+  grid-auto-rows: minmax(100px, auto);
+}
+
+@supports (grid-area: auto) {
+  .gallery-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-column: 10;
+    grid-column: 10px;
+    grid-row-gap: 10px;
+  }
+}
+
+@supports (grid-area: auto) {
+  .gallery-grid {
+    -ms-grid-columns: (minmax(260px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}
+
+/* Demo Style */
+.gallery-grid > div {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.gallery-grid > div:nth-of-type(3n) {
+  background-color: #d91b1a;
+}
+
+.gallery-grid > div:nth-of-type(3n+1) {
+  background-color: #3a568c;
+}
+
+.gallery-grid > div:nth-of-type(3n+2) {
+  background-color: #4f8365;
+}
+/*# sourceMappingURL=master.css.map */

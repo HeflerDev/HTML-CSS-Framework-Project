@@ -1,1 +1,43 @@
 @import 'variables' ;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Tags */
+
+body {
+  display: grid; 
+}
+
+/* Classes */
+
+.gallery-grid {
+  @include grid;
+  @include gridAuto(260px);
+  grid-auto-rows: minmax(100px,auto);
+}
+
+/* Demo Style */
+
+.gallery-grid > div {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  color : white ;
+
+  &:nth-of-type(3n) {
+    background-color: #d91b1a;
+  }
+
+  &:nth-of-type(3n+1) {
+    background-color: #3a568c;
+  }
+
+  &:nth-of-type(3n+2) {
+    background-color: #4f8365 ;
+  }
+}
