@@ -1,6 +1,6 @@
 
 $grid-columns: 12;
-$content-padding: 10px;
+$content-padding: 5px;
 
 //grid gap
 :root {
@@ -22,6 +22,18 @@ $content-padding: 10px;
   justify-content: flex-start;
 }
 
+.container-column {
+  padding: $content-padding;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-center {
+  padding: $content-padding;
+  display: flex;
+  justify-content: center;
+}
+
 .container-end {
   padding: $content-padding;
   display: flex;
@@ -39,6 +51,9 @@ $content-padding: 10px;
   display: flex;
   justify-content: space-between;
 }
+
+
+
 
 //flex item definition
 .col {
@@ -63,7 +78,7 @@ $content-padding: 10px;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   @for $i from 1 through $grid-columns {
     .col--md-#{$i} {
       flex-basis: round-width($i);
