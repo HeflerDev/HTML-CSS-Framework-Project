@@ -1,3 +1,8 @@
+header {
+  margin: auto;
+  max-width: 1110px;
+}
+
 nav ul {
   display: flex;
 }
@@ -30,6 +35,7 @@ nav ul li a {
   color: #cc9543;
   margin: auto;
   min-width: 293px;
+  margin-left: 10px;
 }
 
 .logo {
