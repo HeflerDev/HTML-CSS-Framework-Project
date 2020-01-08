@@ -1,9 +1,15 @@
 
 $grid-columns: 12;
+
 $content-padding: 5px;
 $content-padding-2: 10px;
 $content-padding-3:15px;
 $content-padding-4:20px;
+
+$content-margin: 5px;
+$content-margin-2: 10px;
+$content-margin-3: 15px;
+$content-margin-4: 20px;
 //grid gap
 :root {
   --grid-gap: 10px;
@@ -16,6 +22,27 @@ $content-padding-4:20px;
   margin: calc(var(--grid-gap) * -1) 0 0 calc(var(--grid-gap) * -1);
 }
 
+/* Positioning */
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: $content-margin;
+}
+
+.m-2 {
+  margin: $content-margin-2;
+}
+
+.m-3 {
+  margin: $content-margin-3;
+}
+
+.m-4 {
+  margin: $content-margin-4;
+}
 .p-0 {
   padding: $content-padding;
 }
