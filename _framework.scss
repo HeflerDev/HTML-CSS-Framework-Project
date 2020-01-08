@@ -1,7 +1,9 @@
 
 $grid-columns: 12;
 $content-padding: 5px;
-
+$content-padding-2: 10px;
+$content-padding-3:15px;
+$content-padding-4:20px;
 //grid gap
 :root {
   --grid-gap: 10px;
@@ -14,6 +16,21 @@ $content-padding: 5px;
   margin: calc(var(--grid-gap) * -1) 0 0 calc(var(--grid-gap) * -1);
 }
 
+.p-0 {
+  padding: $content-padding;
+}
+
+.p-2{
+  padding: $content-padding-2;
+}
+
+.p-3{
+  padding: $content-padding-3;
+}
+
+.p-4{
+  padding: $content-padding-4;
+}
 /* Containers */
 
 .container {

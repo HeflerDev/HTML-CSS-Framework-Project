@@ -24,8 +24,6 @@ nav ul li a {
   text-decoration: none solid rgb(204, 149, 67);
   text-transform: uppercase;
   color: #cc9543;
-  margin-right: 0;
-  padding-left: 0;
 }
 
 .logo {
@@ -35,6 +33,10 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 768px) {
+  .top-h {
+    max-height: 70px;
+  }
+
   nav {
     display: none;
   }
@@ -50,5 +52,19 @@ nav ul li a {
 
   .aside {
     display: none;
+  }
+
+  .logo-text {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-top: 10px;
+    font-size: 22px;
+    text-decoration: none solid rgb(204, 149, 67);
+    text-transform: uppercase;
+    color: #cc9543;
+  }
+
+  main {
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }

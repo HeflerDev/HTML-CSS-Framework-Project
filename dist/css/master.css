@@ -11,6 +11,10 @@
   margin: calc(var(--grid-gap) * -1) 0 0 calc(var(--grid-gap) * -1);
 }
 
+.flex-primary {
+  display: flex;
+}
+
 /* Containers */
 .container {
   width: 100%;
