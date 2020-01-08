@@ -1,0 +1,54 @@
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #676767;
+  text-decoration: none;
+}
+
+.burguer-bar {
+  display: none;
+}
+
+.logo-text {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 48px;
+  text-decoration: none solid rgb(204, 149, 67);
+  text-transform: uppercase;
+  color: #cc9543;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.logo {
+  height: 70px;
+  width: 52.687px;
+  max-width: 52.687px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .burguer-bar {
+    display: inline;
+    margin-right: 5px;
+    font-size: 48px;
+    font-weight: 700px;
+    text-decoration: none solid rgb(106, 191, 195);
+    text-align: center;
+  }
+
+  .aside {
+    display: none;
+  }
+}
