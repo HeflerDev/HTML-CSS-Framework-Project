@@ -24,6 +24,8 @@ nav ul li a {
   text-decoration: none solid rgb(204, 149, 67);
   text-transform: uppercase;
   color: #cc9543;
+  margin: auto;
+  min-width: 293px;
 }
 
 .logo {
