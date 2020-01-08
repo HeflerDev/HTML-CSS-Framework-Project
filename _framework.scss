@@ -16,10 +16,19 @@ $content-margin-4: 20px;
 }
 
 //flex container definition
+
 .flex-grid {
   display: flex;  
   flex-wrap: wrap;
   margin: calc(var(--grid-gap) * -1) 0 0 calc(var(--grid-gap) * -1);
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-flex {
+  display: flex;
 }
 
 /* Positioning */
@@ -130,10 +139,19 @@ $content-margin-4: 20px;
       max-width: round-width($i); 
     }
   }
+
   .container--md-row {
     padding: $content-padding;
     display: flex;
     flex-direction: row;
+  }
+
+  .d--md-none {
+    display: none;
+  }
+
+  .d--md-flex {
+    display: flex;
   }
 }
 
@@ -143,5 +161,13 @@ $content-margin-4: 20px;
       flex-basis: round-width($i);
       max-width: round-width($i); 
     }
+  }
+
+  .d--lg-none {
+    display: none;
+  }
+
+  .d--lg-flex {
+    display: flex;
   }
 }

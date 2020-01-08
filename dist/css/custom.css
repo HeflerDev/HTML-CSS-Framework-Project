@@ -12,6 +12,10 @@ nav ul li a {
   text-decoration: none;
 }
 
+.hide {
+  display: flex;
+}
+
 .burguer-bar {
   display: none;
 }
@@ -63,6 +67,10 @@ nav ul li a {
     text-decoration: none solid rgb(204, 149, 67);
     text-transform: uppercase;
     color: #cc9543;
+  }
+
+  .hide {
+    display: none;
   }
 
   main {
