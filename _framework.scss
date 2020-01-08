@@ -102,6 +102,11 @@ $content-padding-4:20px;
       max-width: round-width($i); 
     }
   }
+  .container--md-row {
+    padding: $content-padding;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
