@@ -1,6 +1,10 @@
 header {
   margin: auto;
-  max-width: 1110px;
+  max-width: 1170px;
+}
+
+.top-h {
+  padding-top: 20px;
 }
 
 nav ul {
@@ -16,7 +20,7 @@ nav ul li {
 nav ul li a {
   color: #676767;
   text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .hide {
@@ -29,15 +33,14 @@ nav ul li a {
 
 .logo-text {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700px;
   line-height: 48px;
   text-decoration: none solid rgb(204, 149, 67);
   text-transform: uppercase;
   color: #cc9543;
   margin: auto;
-  min-width: 293px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .logo {
@@ -63,7 +66,7 @@ nav ul li a {
 }
 
 .lesson-desc {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -75,8 +78,137 @@ nav ul li a {
 
 .cotent {
   padding-top: 50px;
-  max-width: 1140px;
+  max-width: 1170px;
   margin: auto;
+}
+
+.main-p h3 strong {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 28.8px;
+  text-decoration: none solid rgba(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: left;
+  color: #212529;
+}
+
+.aside-1 {
+  font-size: 16px;
+  line-height: 24px;
+  position: sticky;
+  display: block;
+}
+
+.aside-1 ul li {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  text-decoration: none solid rgb(74, 74, 74);
+  list-style: disc;
+}
+
+.aside-1 ul li a {
+  text-decoration: none;
+  color: #5a5858;
+}
+
+.aside-1 .selected {
+  color: #212529;
+}
+
+.main-p p {
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 34px;
+  text-decoration: none solid rgb(74, 74, 74);
+  color:  #4a4a4a; 
+}
+
+.description-section ol li {
+  font-size: 18px;
+  line-height: 34.2px;
+  text-decoration: none solid rgb(74, 74, 74);
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.description-section ol li a {
+  color: #cc9543;
+}
+
+.solution p a {
+  color: #cc9543;
+}
+
+.last-section {
+  width: 100%;
+  height: 1134px;
+  padding: 70px 0 70px 0;
+  display: block;
+  background-color: rgb(219, 219, 219);
+
+}
+
+.course-navigation {
+  max-width: 1170px;
+  margin: auto;
+  height: 251px;
+  background-color: #fff;
+  color: #212529;
+  padding-top: 40px;
+}
+
+.course-navigation h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 43px;
+  text-align: center;
+  color: #4a4a4a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.course-navigation h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none solid rgb(206, 151, 62);
+  text-align: center;
+  text-transform: uppercase;
+  color: #ce973e;
+}
+
+.course-navigation .button-section .button-nav-1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  background-color: #cc9543;
+  height: 56px;
+  width: 260.6px;
+  text-decoration: none;
+  min-width: auto;
+  min-height: auto;
+  border-radius: 5px;
+  }
+
+.course-navigation .button-section .button-nav-2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  height: 56px;
+  width: 260.6px;
+  text-decoration: none;
+  min-width: auto;
+  min-height: auto;
+  background-color: #64bfc3;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 768px) {

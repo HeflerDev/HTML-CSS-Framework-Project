@@ -1,10 +1,9 @@
-
 $grid-columns: 12;
 
 $content-padding: 5px;
 $content-padding-2: 10px;
-$content-padding-3:15px;
-$content-padding-4:20px;
+$content-padding-3: 15px;
+$content-padding-4: 20px;
 
 $content-margin: 5px;
 $content-margin-2: 10px;
@@ -18,7 +17,7 @@ $content-margin-4: 20px;
 //flex container definition
 
 .flex-grid {
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
   margin: calc(var(--grid-gap) * -1) 0 0 calc(var(--grid-gap) * -1);
 }
@@ -27,10 +26,12 @@ $content-margin-4: 20px;
   display: none !important;
 }
 
+.flex-primary {
+  display: flex;
+}
 .d-flex {
   display: flex;
 }
-
 
 /* Containers */
 
@@ -70,7 +71,6 @@ $content-margin-4: 20px;
   justify-content: space-between;
 }
 
-
 /* Positioning */
 
 .m-0 {
@@ -97,15 +97,15 @@ $content-margin-4: 20px;
   padding: $content-padding;
 }
 
-.p-1{
+.p-1 {
   padding: $content-padding-2 !important;
 }
 
-.p-2{
+.p-2 {
   padding: $content-padding-3;
 }
 
-.p-3{
+.p-3 {
   padding: $content-padding-4;
 }
 
@@ -117,9 +117,9 @@ $content-margin-4: 20px;
   flex-basis: 100%;
 }
 
-//round flex items' width 
-@function round-width ($i) {
-  $width : floor(100 * $i * 100/ $grid-columns) / 100;
+//round flex items' width
+@function round-width($i) {
+  $width: floor(100 * $i * 100 / $grid-columns) / 100;
   @return $width#{"%"};
 }
 
@@ -128,7 +128,7 @@ $content-margin-4: 20px;
 @for $i from 1 through $grid-columns {
   .col--#{$i} {
     flex-basis: round-width($i);
-    max-width: round-width($i); 
+    max-width: round-width($i);
   }
 }
 
@@ -136,7 +136,7 @@ $content-margin-4: 20px;
   @for $i from 1 through $grid-columns {
     .col--md-#{$i} {
       flex-basis: round-width($i);
-      max-width: round-width($i); 
+      max-width: round-width($i);
     }
   }
 
@@ -159,7 +159,7 @@ $content-margin-4: 20px;
   @for $i from 1 through $grid-columns {
     .col--lg-#{$i} {
       flex-basis: round-width($i);
-      max-width: round-width($i); 
+      max-width: round-width($i);
     }
   }
 
