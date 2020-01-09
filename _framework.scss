@@ -85,12 +85,20 @@ $content-margin-4: 20px;
   margin: $content-margin-2;
 }
 
+.my-2 {
+  margin: $content-margin-2 0;
+}
+
 .m-3 {
   margin: $content-margin-3;
 }
 
 .m-4 {
   margin: $content-margin-4;
+}
+
+.my-4 {
+  margin: $content-margin-4 0;
 }
 
 .p-0 {
@@ -112,7 +120,7 @@ $content-margin-4: 20px;
 //flex item definition
 .col {
   box-sizing: border-box;
-  padding: calc(var(--grid-gap)) 0 0 calc(var(--grid-gap));
+  
   background-clip: content-box;
   flex-basis: 100%;
 }
@@ -138,6 +146,12 @@ $content-margin-4: 20px;
       flex-basis: round-width($i);
       max-width: round-width($i);
     }
+  }
+
+  .container--md-start {
+    padding: $content-padding;
+    display: flex;
+    justify-content: flex-start !important;
   }
 
   .container--md-row {
