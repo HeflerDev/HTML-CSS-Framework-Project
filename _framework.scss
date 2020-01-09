@@ -31,43 +31,7 @@ $content-margin-4: 20px;
   display: flex;
 }
 
-/* Positioning */
 
-.m-0 {
-  margin: 0;
-}
-
-.m-1 {
-  margin: $content-margin;
-}
-
-.m-2 {
-  margin: $content-margin-2;
-}
-
-.m-3 {
-  margin: $content-margin-3;
-}
-
-.m-4 {
-  margin: $content-margin-4;
-}
-
-.p-0 {
-  padding: $content-padding;
-}
-
-.p-2{
-  padding: $content-padding-2;
-}
-
-.p-3{
-  padding: $content-padding-3;
-}
-
-.p-4{
-  padding: $content-padding-4;
-}
 /* Containers */
 
 .container {
@@ -107,7 +71,43 @@ $content-margin-4: 20px;
 }
 
 
+/* Positioning */
 
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: $content-margin;
+}
+
+.m-2 {
+  margin: $content-margin-2;
+}
+
+.m-3 {
+  margin: $content-margin-3;
+}
+
+.m-4 {
+  margin: $content-margin-4;
+}
+
+.p-0 {
+  padding: $content-padding;
+}
+
+.p-1{
+  padding: $content-padding-2 !important;
+}
+
+.p-2{
+  padding: $content-padding-3;
+}
+
+.p-3{
+  padding: $content-padding-4;
+}
 
 //flex item definition
 .col {
