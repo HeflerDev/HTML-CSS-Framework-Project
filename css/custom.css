@@ -379,6 +379,8 @@ footer .social .icon-n {
     font-weight: 700px;
     text-decoration: none solid rgb(106, 191, 195);
     text-align: center;
+    color: #cc9543;
+
   }
 
   .aside {
@@ -388,7 +390,7 @@ footer .social .icon-n {
   .logo-text {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none solid rgb(204, 149, 67);
     text-transform: uppercase;
     color: #cc9543;
@@ -410,4 +412,20 @@ footer .social .icon-n {
 
 .d-none {
   display: none !important;
+}
+
+@media only screen and (max-width: 350px) {
+  .promotion .image-promo .d-p{
+    font-size: 17px;
+  }
+
+  footer  .social{
+    margin-left: 10px;
+  }
+  
+
+  footer  .footer-menu-1{
+   font-size: 18px;
+   line-height: 18px;
+  }
 }
