@@ -415,3 +415,7 @@ footer .social .icon-n {
 .odin-container{
   min-width: 200px;
 }
+
+.d-none {
+  display: none !important;
+}
