@@ -9,6 +9,7 @@ In this project, we'll be building from scratch a copy of "[The Odin Project](ht
 - **HTML**
 - **CSS**
 - **SCSS**
+- **SharkTooth Framework**
 
 ## Live Demo
 
