@@ -38,4 +38,4 @@ Contribution, issues and feature requests are welcome!
 
 ## Suport
 
-Give a star if you liked this project.
+Give a star if you liked this project
