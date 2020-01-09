@@ -144,7 +144,6 @@ nav ul li a {
 
 .last-section {
   width: 100%;
-  height: 1134px;
   padding: 70px 0 70px 0;
   display: block;
   background-color: rgb(219, 219, 219);
@@ -292,7 +291,7 @@ button {
 }
 .image-promo {
   max-width: 954px;
-  margin:auto;
+  margin: auto;
 }
 
 .image-promo .think-full {
@@ -335,7 +334,7 @@ button {
 }
 
 footer {
-  margin-top: 200px;
+  
 }
 
 footer .footer-menu-1,
@@ -364,13 +363,17 @@ footer .social .icon-n {
   color: #cc9543;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .top-h {
     max-height: 70px;
   }
 
   .think {
     justify-content: center;
+  }
+
+  .btn-center {
+    margin: 20px auto !important;
   }
 
   nav {
@@ -410,5 +413,5 @@ footer .social .icon-n {
 }
 
 .odin-container{
-  min-width: 350px;
+  min-width: 200px;
 }
