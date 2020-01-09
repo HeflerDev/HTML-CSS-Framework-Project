@@ -15,6 +15,7 @@ The goal of this project is to build a framework and use it to construct a websi
 - **HTML**
 - **CSS**
 - **SCSS**
+- **SharkTooth Framework**
 
 ## Live Demo
 
