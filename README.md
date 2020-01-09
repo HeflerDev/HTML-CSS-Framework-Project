@@ -1,6 +1,6 @@
 # Microverse Framework Project
 
-In this project, we'll be building from scratch a copy of "[The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework)". 
+ In this project, we'll be building from scratch a copy of "[The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework)". 
 
 our solution: 
 ![our solution](./solution.png)
