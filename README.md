@@ -1,6 +1,12 @@
 # Microverse Framework Project
 
-In this project, we'll be building from scratch a copy of "[The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework)". The goal of this project is to build a framework and use it to construct a website of our choice.
+In this project, we'll be building from scratch a copy of "[The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework)". 
+
+our solution: 
+![our solution](./solution.png)
+
+
+The goal of this project is to build a framework and use it to construct a website of our choice.
 
 >The original specification of the project can be found at [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework).
 
