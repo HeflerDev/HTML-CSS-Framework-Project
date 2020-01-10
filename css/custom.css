@@ -380,7 +380,6 @@ footer .social .icon-n {
     text-decoration: none solid rgb(106, 191, 195);
     text-align: center;
     color: #cc9543;
-
   }
 
   .aside {
@@ -415,17 +414,16 @@ footer .social .icon-n {
 }
 
 @media only screen and (max-width: 350px) {
-  .promotion .image-promo .d-p{
+  .promotion .image-promo .d-p {
     font-size: 17px;
   }
 
-  footer  .social{
+  footer .social {
     margin-left: 10px;
   }
-  
 
-  footer  .footer-menu-1{
-   font-size: 18px;
-   line-height: 18px;
+  footer .footer-menu-1 {
+    font-size: 18px;
+    line-height: 18px;
   }
 }
