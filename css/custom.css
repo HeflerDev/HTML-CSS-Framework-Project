@@ -355,7 +355,7 @@ footer .social .icon-n {
   color: #cc9543;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 720px) {
   .top-h {
     max-height: 70px;
   }
