@@ -28,7 +28,7 @@ The goal of this project is to build a framework and use it to construct a websi
 
 - Github: [@Kasuhira](https://github.com/Kasuhira)
 
-**Barak Ben-Hamu**
+**Certil Remy**
 
 - Github: [@certilremy](https://github.com/certilremy)
 
@@ -38,4 +38,4 @@ Contribution, issues and feature requests are welcome!
 
 ## Suport
 
-Give a star if you liked this project.
+Give a star if you liked this project
